@@ -1,0 +1,35 @@
+.footer{
+    background-color: #2C343E;
+
+    margin: 0 0 0 40px;
+    padding: 20px 0 0 0;
+    height: 100px;
+    width: 1280px;
+    display: flex;
+    align-items: center;
+}
+.f_logo{
+    width: 236px;
+height: 26px;
+}
+.footer__ul{
+    display: flex;
+    padding: 0;
+}
+.footer_link{
+    font-family: 'Barlow';
+font-style: normal;
+font-weight: 700;
+font-size: 12px;
+line-height: 15px;
+letter-spacing: 0.923077px;
+text-transform: uppercase;
+color: #83888F;
+padding: 0;
+}
+.footer_s{
+    margin-left: 450px;
+}
+.footer_link:active{
+    color: #fff;
+}

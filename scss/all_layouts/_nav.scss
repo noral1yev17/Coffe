@@ -1,0 +1,35 @@
+.nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 100px;
+    width: 100%;
+}
+
+.nav_li_link {
+    font-family: 'Barlow';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 12px;
+    line-height: 15px;
+    letter-spacing: 0.923077px;
+    text-transform: uppercase;
+    color: #83888F;
+    padding: 0;
+}
+.nav_li_link:active{
+ 
+    color: #000000;
+
+}
+.nav__ul{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+}
+
+.nav__ul__li{
+    // padding: 0 ;    
+    gap:33px;
+}
