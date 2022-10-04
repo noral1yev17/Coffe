@@ -10,7 +10,7 @@
     font-family: 'Barlow';
     font-style: normal;
     font-weight: 700;
-    font-size: 12px;
+    font-size: 14px;
     line-height: 15px;
     letter-spacing: 0.923077px;
     text-transform: uppercase;
@@ -33,3 +33,126 @@
     // padding: 0 ;    
     gap:33px;
 }
+
+
+
+
+// responsive*******************************************************************************************************************
+
+@media only screen and (max-width:768px){
+    .nav {
+        display: flex;
+        align-items: center;
+        height: 100px;
+        width: 100%;
+       
+       
+    }
+    .nav__img{
+        width: 200px;
+height: 26px;
+position: relative;
+right: 25px;
+    }
+    
+    .nav_li_link {
+        font-family: 'Barlow';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 12px;
+        letter-spacing: 0;
+        text-transform: uppercase;
+        color: #83888F;
+        padding: 0;
+        
+    }
+    .nav_li_link:active{
+     
+        color: #000;
+    
+    }
+    .nav__ul{
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    
+    }
+    
+    .nav__ul__li{
+        // padding: 0 ;    
+        gap:33px;
+    } 
+}
+
+
+
+
+
+
+
+// 375 Responsive***********************************************************************************
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media only screen and (max-width:375px){
+
+
+    .nav {
+        display: flex;
+        align-items: center;
+        height: 100px;
+        width: 100%;
+       
+       
+    }
+    .nav__img{
+        width: 10px;
+        height: 16px;
+        position: relative;
+        right: 25px;
+    }
+    
+    .nav_li_link {
+        font-family: 'Barlow';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 12px;
+        letter-spacing: 0;
+        text-transform: uppercase;
+        color: #83888F;
+        padding: 0;
+        
+    }
+    .nav_li_link:active{
+     
+        color: #000;
+    
+    }
+    .nav__ul{
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    
+    }
+    
+    .nav__ul__li{
+        // padding: 0 ;    
+        gap:33px;
+    } 
+}
+    

@@ -28,8 +28,66 @@ color: #83888F;
 padding: 0;
 }
 .footer_s{
-    margin-left: 450px;
+    margin-left: 230px;
+    display: flex;
 }
 .footer_link:active{
     color: #fff;
+}
+.footer-ul_li{
+    width: 170px;
+}
+
+
+@media only screen and (max-width:768px){
+
+    .footer{
+        background-color: #2C343E;
+        margin: 0 0 0 0px;
+        padding: 20px 0 0 0;
+        height: 300px;
+        width:630px;
+    
+        justify-content: center;
+    }
+    .f_logo{
+        width: 336px;
+    height: 26px;
+    position: relative;
+    left: 370px;
+    bottom: 70px;
+    }
+    .footer__ul{
+        display: flex;
+        padding: 0;
+        margin-right: -303px;
+    }
+    .footer_link{
+        font-family: 'Barlow';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 12px;
+    line-height: 15px;
+    letter-spacing: 0.923077px;
+    text-transform: uppercase;
+    color: #83888F;
+    padding: 0;
+    
+    
+    }
+    .footer_s{
+        display: flex;
+        position: relative;
+        bottom: -100px; 
+        right: 380px;
+    }
+   
+    .footer_link:active{
+        color: #fff;
+    }
+    .footer-ul_li{
+        width: 162px;
+        margin-right: 36px;
+    }
+
 }

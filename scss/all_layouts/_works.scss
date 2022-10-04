@@ -37,7 +37,7 @@
     }
     .works_ul{
         display: flex;
-        gap: 100px;
+        gap: 69px;
     }
     .works_number{
         font-family: 'Fraunces';
@@ -60,6 +60,15 @@ margin-bottom: 40px;
     }
     .works_p{
 font-family: 'Barlow';
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 26px;
+color: #333D4B;
+width: 320px;
+    }
+    .works_p1{
+        font-family: 'Barlow';
 font-style: normal;
 font-weight: 400;
 font-size: 16px;
@@ -94,4 +103,120 @@ color: #FEFCF7;
     }
     .works_btn:active{
         background: #66D2CF;
+    }
+
+    // responsive**************************************************************************************************************
+
+
+
+    @media only screen and (max-width:768px){
+
+        .works_dis{
+            font-family: 'Fraunces';
+            font-style: normal;
+            font-weight: 900;
+            font-size: 24px;
+            line-height: 32px;
+            color: #83888F;
+            margin-top: 1200px;
+            margin-left: 0px;
+        
+            }
+    
+           
+            .works_ul{
+                display: flex;
+                padding: 0;
+                margin: 0;
+                gap: 90px;
+            }
+           .works_ul_li{
+            padding: 0;
+           }
+           
+           .works_ul_li2{
+            padding: 0;
+            position: relative;
+            right: 80px;
+           }
+           .works_ul_li3{
+            position: relative;
+            right: 177px;
+           }
+
+            .works_number{
+                font-family: 'Fraunces';
+        font-style: normal;
+        font-weight: 900;
+        font-size: 32px;
+        line-height: 72px;
+        color: #FDD6BA;
+        margin-bottom: 10px;
+            }
+            .works_title{
+
+        font-family: 'Fraunces';
+        font-style: normal;
+        font-weight: 900;
+        font-size: 18px;
+        line-height: 36px;
+        color: #333D4B;
+        // width: 300px;
+        margin-bottom: 40px;
+        width: 180px;
+            }
+            .works_p{
+        font-family: 'Barlow';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 26px;
+        color: #333D4B;
+        width: 190px;
+        padding: 0;
+        position: relative;
+        right: -18;
+            }
+            .works_p1{
+                font-family: 'Barlow';
+                font-style: normal;
+                font-weight: 400;
+                font-size: 16px;
+                line-height: 26px;
+                color: #333D4B;
+                width: 190px;
+                padding: 0;
+              position: relative;
+              right: -18;
+            }
+            
+            .halqa{
+                margin-left: 25px;
+                margin-bottom: 40px;
+            }
+            .works_btn{
+                margin-top: 41px;
+                background: #0E8784;
+                border-radius: 6px;
+                width:250px;
+                height: 50px;
+                margin-left: 53px;
+                border: none;
+                color: #fff;
+                margin-bottom: 200px;
+            }
+            .works_link{
+                
+        font-family: 'Fraunces';
+        font-style: normal;
+        font-weight: 900;
+        font-size: 18px;
+        line-height: 25px;
+        text-align: center;
+        color: #FEFCF7;
+            }
+            .works_btn:active{
+                background: #66D2CF;
+            }
+
     }
